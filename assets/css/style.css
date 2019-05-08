@@ -24,26 +24,43 @@ header {
 
 #Menu li{
 	float: right;
-	
-	height: 35px;
+	height: 25px;
 	font-size: 16px;
 	font-family: 'Georgia','Times','Times New Roman','serif';
 	font-weight:bold;
-	text-align: right;
+	text-align: center;
 	list-style: none;
 	border-right: 1px solid lightgrey;
 	width: 75px;
-	padding-right:100px;
+	padding-right:25px;
 	padding-left: 50px; 
+	padding-top:30px;
 
 }
 
-h1 {
+#Menu {
 
-	color:#4aaaa5;
-	text-align: left;
-	padding-left: 15px;
-	padding-top: 15px
+	float: left;
+	margin-left: 100px;
+	padding: 0px;
+	/*padding-top: 25px;*/
+	padding-right: 200px;
+}
+
+.Name {
+
+	width: 300px;
+	background:#4aaaa5;
+	color: white;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	/*text-align: center;*/
+	float: left;
+	margin-left: 140px;
+	/*margin-top: 50px;
+	/*margin-bottom: -5px;*/*/
 
 
 }
@@ -63,24 +80,34 @@ h3 {
 }
 .leftbox {
 	height:500px;
-	width: 600px
+	width: 550px;
 	background-color: #ffffff;
-	margin-right:150px;
-	margin-bottom: 350px;
+	background:white;
+	margin-left: 130px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+	/*margin-bottom:350px;
+*/	float: left;
+}
+.profile-pic {
+
 	float: left;
 }
 
 .rightbox {
 
-	height: 500px;
-	width: 600px;
+	height: 200px;
+	width: 200px;
 	background-color: #ffffff;
-	margin-left: 125px;
-	float:left;
+	/*margin-left: 10px;*/
+	float: left;
+	text-align: center;
+	margin-left: 50px;
 }
 
 footer {
-	position: absolute;
+	position: fixed;
 	border-top: 5px solid #4aaaa5;
 	bottom: 0;
 	left: 0;
@@ -89,7 +116,6 @@ footer {
     padding: 20px;
     width: 100%;
     color: white;
-    text-align: center;
- 	
+    text-align: center; 	
 }
 
